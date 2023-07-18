@@ -1,0 +1,26 @@
+.p1{
+    font-family: Roboto,Arial;
+    font-weight: 600;
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+
+.p2{
+    color: #606060;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+
+.p3{
+    color: #606060;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 12px;
+}

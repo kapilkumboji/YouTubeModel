@@ -1,0 +1,129 @@
+.searchbox{
+    height:34px;
+    max-width: 450px;
+    flex:1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-style: solid;
+    border-color: rgb(204,204,204);
+    border-width: 1px;
+    padding-left: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    font-family: Roboto,Arial;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+.searchbox::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.header{
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed ;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-color:rgb(204, 204, 204) ;
+    border-bottom-style: solid;
+    z-index: 100;
+}
+.left-sec{
+    width: 175px;
+    display: flex;
+}
+.middle-sec{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 600px;
+    height:37px;
+}
+.right-sec{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.menu{
+    height:23px;
+    flex:1;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.ytlogo{
+    height:20px;
+    flex:1;
+}
+.search-icon{
+    height:25px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.voice-icon{
+    height:24px;
+    object-position: center;
+}
+.voice-button{
+    height:37px;
+    border-radius: 25px;
+    border-style: hidden;
+    background-color: white;
+}
+.search-button{
+    height:39px;
+    border-style: solid;
+    border-color: rgb(204,204,204);
+    border-width: 1px;
+    width:60px;
+    background-color:none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-right: 15px;
+}
+.pp{
+    border-radius: 34px;
+    width:34px;
+    height:34px ;
+    margin-bottom:4px;
+}
+
+
+.button{
+    border-radius: 38px;
+    width:36px;
+    border-style: hidden;
+    background-color: white;
+    position: relative;
+}
+
+
+.notify{
+    position: absolute;
+    color: white;
+    font-size: 8px;
+    font-weight: 700;
+    font-family: Roboto,Arial;
+    background-color: #cc0000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.75px;
+    right: 2.5px;
+}

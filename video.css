@@ -1,0 +1,63 @@
+.thumbnail {
+    width: 320px;
+    object-position: left;
+    object-fit:cover;
+    display: block;
+    margin-bottom: none;
+}
+
+
+.group{
+    width:320px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+
+.channel{
+    border-radius: 40px;
+    display: inline;
+    width:43px;
+}
+
+
+.channelstyle{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    margin-top:0px;
+}
+
+
+.contentstyle{
+    display: inline-block;
+    width: 270px;
+    margin-left: 0px;
+    margin-top: none;
+}
+
+
+.time{
+    font-size: medium;
+    background-color: black;
+    color: white;
+    right: 5px;
+    bottom: 7px;
+    position: absolute;
+    border-radius: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Roboto,Arial;
+    background-color: rgba(0,0,0,0.87);
+}
+
+
+.thumNtime
+{
+    position: relative;
+}
